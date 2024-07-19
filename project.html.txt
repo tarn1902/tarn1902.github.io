@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Tarn Cooper</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tarn Cooper</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="images/Evolve-Logo.png" alt="Evolve Simulation">
+            <h3>Evolve Simulation</h3>
+            <p>Description: Evolve Simulations is an AI-powered experiential learning platform that delivers simulation training through virtual roleplay with realistic characters in free flowing conversations. We design and build bespoke communication simulations that deliver the training and education outcomes required by any organisation in any industry. </p>
+            <p>Technologies Used: Unity Engine, Meta Quest 3, OpenAI </p>
+            <p>Challenges and Solutions: I faced challenges with the rate that the AI will respond in application. The team wanted quick response to feel like a real conversation. The process required finding fast STT, AI Response and TTS. We managed to get it down by change diffrent sdks and moving some processes off the application to be run on a private server</p>
+            <a href="https://youtu.be/1P26syuKTl8">View Demo</a>
+        </div>
+        <div class="project">
+            <img src="images/recoveryvr_logo.jfif" alt="RecoveryVR">
+            <h3>RecoveryVR</h3>
+            <p>Description: RecoveryVR is an instant, engaging system for neuro-rehabilitation that focuses on reducing wait times for professional therapy in regional areas. Using the latest virtual reality technology patients are motivated to get their mind and upper-body moving through one-on-one therapy videos, outdoor exercise, mini-games and imagery for those with no movement at all. RecoveryVR helps patients perform meaningful, evidence-based clinical practice in the hospital or in the comfort of their own home. </p>
+            <p>Technologies Used: Unity Engine, Pico 3, Pico 4, Firebase</p>
+            <p>Challenges and Solutions: I faced challenges with the rate that the AI will respond in application. The team wanted quick response to feel like a real conversation. The process required finding fast STT, AI Response and TTS. We managed to get it down by change diffrent sdks and moving some processes off the application to be run on a private server</p>
+            <a href="https://youtu.be/oJRgl1swXPk">View Demo</a>
+        </div>
+        <div class="project">
+            <img src="images/liminal_vr_logo.jfif" alt="LiminalVR">
+            <h3> PLTS : Electrician Training Module (LiminalVR)</h3>
+            <p>Description: The PLTS is a revolutionary virtual reality program that offers managers and leaders the opportunity to develop positive leadership and communication skills by interacting with virtual reality avatars across common workplace scenarios. This innovative program will help managers in the prevention of injury and illness of young workers. The specfic module worked was for training electricians in specfic way on PC </p>
+            <p>Technologies Used: Unity Engine, PC-Build</p>
+            <p>Challenges and Solutions: The challenge faced was handling complex interactions real life interactions into a simple PC application. With some inspiration for Electrician Simulator, we found a solution that only requires point and click for actions and dialogue</p>
+            <a href="https://youtu.be/pX3oicAX_7o">View Showcase</a>
+        </div>
+        <div class="project">
+            <img src="images/liminal_vr_logo.jfif" alt="LiminalVR">
+            <h3>Food Fight (LiminalVR)</h3>
+            <p>Description: Food Fight, is a fast-paced, spontaneous food fight set in a classic elementary cafeteria room. </p>
+            <p>Technologies Used: Unity Engine, Meta Quest 2</p>
+            <p>Challenges and Solutions: The challenge from being a student project, so required extra care and improvement to meet standards of Meta and LiminalVR Platform</p>
+            <a href="https://x.com/LiminalVR/status/1612287306819567616">View Post</a>
+        </div>
+        <div class="project">
+            <img src="images/virtulane_logo.jfif" alt="Virtulane">
+            <h3>Escape From Nakatomi (Virtulane)</h3>
+            <p>Description: From the very beginning, you'll find yourself transported into a world of danger, mystery, and excitement. Explore the intricately designed Nakatomi environment, complete with stunning visuals and realistic interactions. You'll face mind-bending puzzles, thrilling challenges, and unexpected twists as you strive to make your escape. </p>
+            <p>Technologies Used: Unity Engine, Pico 4</p>
+            <p>Challenges and Solutions: A challenge was realted to creating a new locomotion based on crawling through vents. The solution borrowed concepts from VR rock climbing to instead drag accross vertically </p>
+            <a href="https://youtu.be/Gx2XVK5_Iww">View Demo</a>
+        </div>
+        <!-- Add more projects similarly -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Tarn Cooper</p>
+    </footer>
+</body>
+</html>
