@@ -1,10 +1,15 @@
+/* General styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+/* Header styling */
 header {
     background-color: #333;
     color: #fff;
@@ -12,32 +17,23 @@ header {
     text-align: center;
 }
 
+/* Navigation styling */
 nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
 }
 
+/* Main content styling */
 main {
+    flex: 1; /* Ensures that main takes up available space */
     padding: 20px;
 }
 
+/* Footer styling */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.project {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-.project img {
-    max-width: 100%;
 }
