@@ -1,39 +1,269 @@
-/* General styling */
-body {
-    font-family: Arial, sans-serif;
+/* General Styles */
+/* General Styles */
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
-/* Header styling */
-header {
-    background-color: #333;
+.page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: #333;
     color: #fff;
-    padding: 10px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
 }
 
-/* Navigation styling */
+header h1 {
+    margin: 0;
+}
+
 nav a {
     color: #fff;
+    text-decoration: none;
     margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.project-section {
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h4 {
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.project a {
+    display: block;
+    margin: 10px 0;
+    color: #0066cc;
     text-decoration: none;
 }
 
-/* Main content styling */
-main {
-    flex: 1; /* Ensures that main takes up available space */
-    padding: 20px;
+.project a:hover {
+    text-decoration: underline;
 }
 
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: #fff;
+.project .project-links {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+.project .project-links li {
+    margin-bottom: 10px; /* Adds spacing between list items */
+}
+
+.project .project-links a {
+    text-decoration: none; /* Removes underline from links */
+    color: #007BFF; /* Optional: sets link color */
+    display: inline-block; /* Ensures that the links respect margin */
+}
+
+.project .project-links a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+
+
+
+/* About Page Styles */
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-section {
     text-align: center;
-    padding: 10px 0;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.info-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.info-box h3 {
+    margin-top: 0;
+}
+
+.info-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.info-box ul li {
+    margin-bottom: 10px;
+}
+
+/* Projects Page Styles */
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.project h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.project p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Resume Page Styles */
+.pdf-viewer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pdf-viewer iframe {
+    width: 95%; /* Increase width */
+    height: 1200px; /* Increase height */
+    border: none;
+}
+
+/* Contact Page Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
